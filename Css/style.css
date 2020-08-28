@@ -6,7 +6,7 @@
   src: local("Lato Regular"), local("Lato-Regular"),
     url("../Fonts/lato-v16-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../Fonts/lato-v16-latin-regular.woff") format("woff");
+    url("../Fonts/lato-v16-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -18,7 +18,7 @@
   src: local("Lato Bold"), local("Lato-Bold"),
     url("../Fonts/lato-v16-latin-700.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../Fonts/lato-v16-latin-700.woff") format("woff");
+    url("../Fonts/lato-v16-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -30,7 +30,7 @@
   src: local("Lato Black"), local("Lato-Black"),
     url("../Fonts/lato-v16-latin-900.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../Fonts/lato-v16-latin-900.woff") format("woff");
+    url("../Fonts/lato-v16-latin-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -39,18 +39,19 @@
   font-family: "Gochi Hand";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/gochi-hand-v10-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/gochi-hand-v10-latin-regular.eot");
+  /* IE9 Compat Modes */
   src: local("Gochi Hand"), local("GochiHand-Regular"),
-    url("../fonts/gochi-hand-v10-latin-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/gochi-hand-v10-latin-regular.woff2")
-      format("woff2"),
+    url("../fonts/gochi-hand-v10-latin-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/gochi-hand-v10-latin-regular.woff2") format("woff2"),
     /* Super Modern Browsers */
-      url("../fonts/gochi-hand-v10-latin-regular.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/gochi-hand-v10-latin-regular.ttf")
-      format("truetype"),
+    url("../fonts/gochi-hand-v10-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/gochi-hand-v10-latin-regular.ttf") format("truetype"),
     /* Safari, Android, iOS */
-      url("../fonts/gochi-hand-v10-latin-regular.svg#GochiHand") format("svg"); /* Legacy iOS */
+    url("../fonts/gochi-hand-v10-latin-regular.svg#GochiHand") format("svg");
+  /* Legacy iOS */
 }
 
 body {
@@ -71,6 +72,7 @@ html {
 * ::after {
   box-sizing: inherit;
 }
+
 .Header {
   width: 100%;
   height: 42px;
@@ -80,8 +82,7 @@ html {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
+
 }
 
 .Header-menu {
@@ -107,7 +108,29 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  line-height: 36px;
   letter-spacing: 0.2px;
   text-decoration: none;
   padding-right: 30px;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+  opacity: 65%;
+}
+
+.Container {
+  width: 1218px;
+  height: 1172px;
+  left: 720px;
+  padding-top: 42px;
+  background: linear-gradient(to right, #f9bbd2 50%, #bedef5 50%);
+  margin: 0 auto;
+}
+
+.Image {
+  size: 722px 1032px 722px 1032px;
+  padding: 70px 0 216px 87px;
+
 }
