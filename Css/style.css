@@ -158,18 +158,18 @@ html {
 }
 
 .button:hover {
-  opacity: 65%;
+  opacity: 80%;
 }
 
 .Name {
+  padding-left: 5px;
   position: absolute;
   width: 241px;
   height: 45px;
   left: 801px;
   top: 336px;
   background: #F6E5EC;
-
-  border: 2px solid #EA1A65;
+  border: 1px solid #EA1A65;
   box-sizing: border-box;
   border-radius: 5px;
   font-family: Lato;
@@ -185,13 +185,14 @@ html {
 }
 
 .Vorname {
+  padding-left: 5px;
   position: absolute;
   width: 241px;
   height: 45px;
   left: 801px;
   top: 393px;
   background: #F6E5EC;
-  border: 2px solid #EA1A65;
+  border: 1px solid #EA1A65;
   box-sizing: border-box;
   border-radius: 5px;
   font-family: Lato;
@@ -207,13 +208,14 @@ html {
 }
 
 .Tel {
+  padding-left: 5px;
   position: absolute;
   width: 241px;
   height: 45px;
   left: 801px;
   top: 452px;
   background: #F6E5EC;
-  border: 2px solid #EA1A65;
+  border: 1px solid #EA1A65;
   box-sizing: border-box;
   border-radius: 5px;
   font-family: Lato;
