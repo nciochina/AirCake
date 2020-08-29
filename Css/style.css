@@ -6,7 +6,7 @@
   src: local("Lato Regular"), local("Lato-Regular"),
     url("../Fonts/lato-v16-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../Fonts/lato-v16-latin-regular.woff") format("woff");
+    url("../Fonts/lato-v16-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -18,7 +18,7 @@
   src: local("Lato Bold"), local("Lato-Bold"),
     url("../Fonts/lato-v16-latin-700.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../Fonts/lato-v16-latin-700.woff") format("woff");
+    url("../Fonts/lato-v16-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -30,7 +30,7 @@
   src: local("Lato Black"), local("Lato-Black"),
     url("../Fonts/lato-v16-latin-900.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../Fonts/lato-v16-latin-900.woff") format("woff");
+    url("../Fonts/lato-v16-latin-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -42,16 +42,15 @@
   src: url("../fonts/gochi-hand-v10-latin-regular.eot");
   /* IE9 Compat Modes */
   src: local("Gochi Hand"), local("GochiHand-Regular"),
-    url("../fonts/gochi-hand-v10-latin-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/gochi-hand-v10-latin-regular.woff2")
-      format("woff2"),
+    url("../fonts/gochi-hand-v10-latin-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/gochi-hand-v10-latin-regular.woff2") format("woff2"),
     /* Super Modern Browsers */
-      url("../fonts/gochi-hand-v10-latin-regular.woff") format("woff"),
-    /* Modern Browsers */ url("../fonts/gochi-hand-v10-latin-regular.ttf")
-      format("truetype"),
+    url("../fonts/gochi-hand-v10-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/gochi-hand-v10-latin-regular.ttf") format("truetype"),
     /* Safari, Android, iOS */
-      url("../fonts/gochi-hand-v10-latin-regular.svg#GochiHand") format("svg");
+    url("../fonts/gochi-hand-v10-latin-regular.svg#GochiHand") format("svg");
   /* Legacy iOS */
 }
 
@@ -98,7 +97,7 @@ html {
   position: absolute;
   width: 72px;
   height: 30px;
-  left: 87px;
+  left: 66px;
   top: 10.5px;
 }
 
@@ -111,7 +110,7 @@ html {
   line-height: 36px;
   letter-spacing: 0.2px;
   text-decoration: none;
-  padding-right: 30px;
+  padding-right: 45px;
 }
 
 .menu-link:hover,
@@ -130,10 +129,222 @@ html {
 }
 
 .Image {
-  padding: 70px 0 216px 87px;
-  border-radius: 20px 20px 20px 20px;
+  /* padding: 70px 0 216px 87px; */
+  position: absolute;
+  width: 703px;
+  height: 1016px;
+  left: 61px;
+  top: 120px;
+
+  background: url(.jpg);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
 }
+
+.button {
+  position: absolute;
+  width: 241px;
+  height: 45px;
+  left: 801px;
+  top: 549px;
+  background: #ea1a65;
+  border-style: none;
+  border-radius: 30px;
+  border-color: #ea1a65;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  opacity: 65%;
+}
+
+.Name {
+  position: absolute;
+  width: 241px;
+  height: 45px;
+  left: 801px;
+  top: 336px;
+  background: #F6E5EC;
+
+  border: 2px solid #EA1A65;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 80px;
+  color: #EA1A65;
+}
+
+.Name:focus {
+  box-shadow: 0 0 5px #EA1A65;
+}
+
+.Vorname {
+  position: absolute;
+  width: 241px;
+  height: 45px;
+  left: 801px;
+  top: 393px;
+  background: #F6E5EC;
+  border: 2px solid #EA1A65;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 80px;
+  color: #EA1A65;
+}
+
+.Vorname:focus {
+  box-shadow: 0 0 5px #EA1A65;
+}
+
+.Tel {
+  position: absolute;
+  width: 241px;
+  height: 45px;
+  left: 801px;
+  top: 452px;
+  background: #F6E5EC;
+  border: 2px solid #EA1A65;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 80px;
+  color: #EA1A65;
+}
+
+.Tel:focus {
+  box-shadow: 0 0 5px #EA1A65;
+}
+
+.c1 {
+  position: absolute;
+  width: 570px;
+  height: 570px;
+  left: 860px;
+  top: 80px;
+  -webkit-border-radius: 285px;
+  -moz-border-radius: 285px;
+  border-radius: 285px;
+  background: #F9D5BB;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.c2 {
+  position: absolute;
+  width: 458px;
+  height: 458px;
+  left: 129px;
+  top: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 229px;
+  -moz-border-radius: 229px;
+  border-radius: 229px;
+  background: #F2FAFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.c2 {
+  position: absolute;
+  width: 458px;
+  height: 458px;
+  left: 129px;
+  top: 53px;
+  -webkit-border-radius: 229px;
+  -moz-border-radius: 229px;
+  border-radius: 229px;
+  background: #DCF0FE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.txt-c1 {
+  position: absolute;
+  width: 548px;
+  height: 125px;
+  left: 801px;
+  top: 105px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  color: #EA1A65;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+}
+
+.txt2-c1 {
+  position: absolute;
+  width: 386px;
+  height: 192px;
+  left: 801px;
+  top: 165px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  color: #0B0B0B;
+}
+
+.headtext {
+  position: absolute;
+  width: 326px;
+  height: 160px;
+  left: 91px;
+  top: 75px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.headtext-it {
+  position: absolute;
+  width: 314px;
+  height: 141px;
+  left: 197px;
+  top: 175px;
+
+  font-family: Gochi Hand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 60px;
+  /* or 86% */
+
+  display: flex;
+  align-items: center;
+
+  /* blue5 */
+
+  color: #2B74B9;
+  /* small */
+
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+}
+
 .Footer {
   position: absolute;
   width: 100%;
